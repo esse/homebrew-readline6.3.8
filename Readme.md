@@ -6,4 +6,4 @@ If the formula conflicts with one from Homebrew/homebrew or another tap, you can
 
 You can also install via URL:
 
-brew install https://raw.githubusercontent.com/esse/readline6.3.8/master/readline.rb
+brew install https://raw.githubusercontent.com/esse/homebrew-readline6.3.8/master/Formula/readline.rb (recommended)
