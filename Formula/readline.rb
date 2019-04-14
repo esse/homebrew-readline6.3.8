@@ -16,7 +16,7 @@ class Readline < Formula
     sha256 "c129333634dd00ab2267ae9c531fca1f5cc50dd519ed3399918289fdfdf2663b" => :lion
   end
 
-  keg_only :shadowed_by_osx, <<-EOS.undent
+  keg_only :shadowed_by_osx, <<-EOS
     OS X provides the BSD libedit library, which shadows libreadline.
     In order to prevent conflicts when programs look for libreadline we are
     defaulting this GNU Readline installation to keg-only.
@@ -49,7 +49,7 @@ class Readline < Formula
   end
 
   test do
-    (testpath/"test.c").write <<-EOS.undent
+    (testpath/"test.c").write <<-EOS
       #include <stdio.h>
       #include <stdlib.h>
       #include <readline/readline.h>
